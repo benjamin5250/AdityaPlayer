@@ -33,14 +33,14 @@ async def _human_time_duration(seconds):
 @Client.on_message(command("start") & filters.private & ~filters.edited)
 async def start_(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://te.legra.ph/file/c6e1041c6c9a12913f57a.png",
+        photo=f"https://te.legra.ph/file/5e3c7aef33003ba82d358.jpg",
         caption=f"""**━━━━━━━━━━━━━━━━━━━━━━━━
 💥 ʜᴇʟʟᴏ, ɪ ᴀᴍ sᴜᴘᴇʀ ғᴀsᴛ ᴠᴄ ᴘʟᴀʏᴇʀ
 ʙᴏᴛ ғᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘs ...
 ┏━━━━━━━━━━━━━━━━━┓
-┣★ ᴄʀᴇᴀᴛᴏʀ : [ᴀᴅɪᴛʏᴀ ʜᴀʟᴅᴇʀ](https://t.me/adityahalder)
-┣★ ᴜᴘᴅᴀᴛᴇs : [ᴀᴅɪᴛʏᴀ sᴇʀᴠᴇʀ](https://t.me/adityaserver)
-┣★ sᴜᴘᴘᴏʀᴛ : [ᴀᴅɪᴛʏᴀ ᴅɪsᴄᴜs](https://t.me/adityadiscus)
+┣★ ᴄʀᴇᴀᴛᴏʀ : [𝘾𝙡𝙖𝙪𝙙𝙚 🎮 💤](https://t.me/clauderis)
+┣★ ᴜᴘᴅᴀᴛᴇs : [𝑷𝒖𝒓𝒑𝒍𝒆 𝑷𝒍𝒂𝒏𝒆𝒕](https://t.me/purpleplaneteers)
+┣★ sᴜᴘᴘᴏʀᴛ : [𝑷𝒖𝒓𝒑𝒍𝒆 𝑷𝒍𝒂𝒏𝒆𝒕](https://t.me/purpleplaneteer)
 ┣★ sᴏᴜʀᴄᴇ › : [ɢᴇᴛ ʀᴇᴘᴏ ʜᴇʀᴇ](https://github.com/mradityaxd/adityaplayer)
 ┗━━━━━━━━━━━━━━━━━┛
 
@@ -51,7 +51,7 @@ async def start_(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "➕ ❰ ᴊᴏɪɴ ʜᴇʀᴇ ғᴏʀ ᴜᴘᴅᴀᴛᴇs ❱ ➕", url=f"https://t.me/adityaserver")
+                        "➕ ❰ ᴊᴏɪɴ ʜᴇʀᴇ ғᴏʀ ᴜᴘᴅᴀᴛᴇs ❱ ➕", url=f"https://t.me/purpleplaneteers")
                 ]
                 
            ]
@@ -62,13 +62,13 @@ async def start_(client: Client, message: Message):
 @Client.on_message(commandpro(["/start", "/alive", "aditya"]) & filters.group & ~filters.edited)
 async def start(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://te.legra.ph/file/c6e1041c6c9a12913f57a.png",
+        photo=f"https://te.legra.ph/file/5e3c7aef33003ba82d358.jpg",
         caption=f"""""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "💥 ᴊᴏɪɴ ʜᴇʀᴇ ᴀɴᴅ sᴜᴘᴘᴏʀᴛ 💞", url=f"https://t.me/adityadiscus")
+                        "💥 ᴊᴏɪɴ ʜᴇʀᴇ ᴀɴᴅ sᴜᴘᴘᴏʀᴛ 💞", url=f"https://t.me/purpleplaneteers")
                 ]
             ]
         ),
@@ -78,7 +78,7 @@ async def start(client: Client, message: Message):
 @Client.on_message(commandpro(["repo", "#repo", "@repo", "/repo", "source"]) & filters.group & ~filters.edited)
 async def help(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://te.legra.ph/file/c6e1041c6c9a12913f57a.png",
+        photo=f"https://te.legra.ph/file/5e3c7aef33003ba82d358.jpg",
         caption=f"""""",
         reply_markup=InlineKeyboardMarkup(
             [
